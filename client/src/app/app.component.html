@@ -1,0 +1,8 @@
+<div>
+  <input (keyup.enter)="sendMessage(messageInput.value)" #messageInput type="text">
+  <button (click)="sendMessage(messageInput.value)">Send</button>
+</div>
+
+<div style="margin-top: 20px">
+  {{message}}
+</div>
